@@ -1,7 +1,7 @@
 {
-  "name": "gherkin-jest",
+  "name": "gherkin-jest-ext",
   "version": "0.25.0",
-  "description": "Run tests written in gherkin with jest",
+  "description": "Fork of gherkin-jest - run tests written in gherkin with jest",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "scripts": {
@@ -16,6 +16,9 @@
     "bdd"
   ],
   "author": "Stewart MacKenzie-Leigh",
+  "contributors": [
+    "Stephen Nolan"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^21.1.5",
@@ -30,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stewartml/gherkin-jest.git"
+    "url": "git+https://github.com/mynameisstephen/gherkin-jest-ext.git"
   },
   "bugs": {
-    "url": "https://github.com/stewartml/gherkin-jest/issues"
+    "url": "https://github.com/mynameisstephen/gherkin-jest-ext/issues"
   },
-  "homepage": "https://github.com/stewartml/gherkin-jest#readme"
+  "homepage": "https://github.com/mynameisstephen/gherkin-jest-ext#readme"
 }
