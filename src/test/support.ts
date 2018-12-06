@@ -1,5 +1,5 @@
 import { cucumber } from '../lib';
-import { HookType, FeatureContext } from 'stucumber';
+import { HookType, FeatureContext } from 'stucumber-ext';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -9,7 +9,7 @@ interface World {
   answer?: number;
 }
 
-cucumber.defineCreateWorld(() => ({
+cucumber.defineCreateWorld(async () => ({
   a: null,
   b: null,
   answer: null

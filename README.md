@@ -1,4 +1,11 @@
-# gherkin-jest
+# gherkin-jest-ext
+
+Fork of [gherkin-jest](https://github.com/stewartml/gherkin-jest#readme) with a number of improvements:
+
+* Includes improvements from [stucumber-ext](https://github.com/mynameisstephen/stucumber-ext#readme)
+* Export hook types
+
+# Original docs
 
 Now you can run tests written in gherkin using jest.
 

@@ -1,4 +1,4 @@
-import { GenericTransformer } from 'stucumber';
+import { GenericTransformer } from 'stucumber-ext';
 import { readFileSync } from 'fs';
 
 require('source-map-support').install({
@@ -23,6 +23,8 @@ export default function process(source: string, filename: string) {
   const transformer = new GenericTransformer({
     featureFn: 'describe',
     scenarioFn: 'it',
+    beforeEachFn: 'beforeEach',
+    afterEachFn: 'afterEach',
     beforeAllFn: 'beforeAll',
     afterAllFn: 'afterAll'
   });
