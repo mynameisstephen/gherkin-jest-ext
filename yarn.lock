@@ -2368,9 +2368,9 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-stucumber-ext@0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/stucumber-ext/-/stucumber-ext-0.21.0.tgz#bb0a703ca40e66ccbb69118a05aa1a10f6c2ceb1"
+stucumber-ext@0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/stucumber-ext/-/stucumber-ext-0.22.0.tgz#2e14098baff77c5bf224abb7f9f6300fab173a2d"
   dependencies:
     promise.prototype.finally "^3.1.0"
     source-map "^0.6.1"
