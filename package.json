@@ -1,6 +1,6 @@
 {
   "name": "gherkin-jest-ext",
-  "version": "0.26.0",
+  "version": "0.27.0",
   "description": "Fork of gherkin-jest - run tests written in gherkin with jest",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
